@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    command: /entrypoint.sh
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=True
+      - SECRET_KEY=django-insecure-your-secret-key-here-change-in-production
+      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0
