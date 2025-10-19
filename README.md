@@ -4,9 +4,11 @@ A Django REST Framework API for managing workspace room bookings with 15 rooms, 
 
 ## 🚀 Quick Start
 
+### Docker Image Link: https://hub.docker.com/r/rohaanyh/frejun-assignment
+
 ### Docker (Recommended)
 ```bash
-docker run -p 8000:8000 rohaanyh/frejun-assignment:latest
+docker run -p 8000:8000 rohaanyh/frejun-assignment:0.1
 ```
 
 ### Local Development
@@ -110,15 +112,15 @@ docker run -p 8000:8000 frejun-assignment
 
 # Push to Docker Hub
 docker login
-docker tag frejun-assignment yourusername/frejun-assignment:latest
-docker push yourusername/frejun-assignment:latest
+docker tag frejun-assignment yourusername/frejun-assignment:0.1
+docker push yourusername/frejun-assignment:0.1
 ```
 
 ## 🎯 For Interviewers
 
 **Zero Setup Required:**
 ```bash
-docker run -p 8000:8000 rohaanyh/frejun-assignment:latest
+docker run -p 8000:8000 rohaanyh/frejun-assignment:0.1
 ```
 
 **Demo Features:**
