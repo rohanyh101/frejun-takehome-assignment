@@ -11,7 +11,7 @@ docker run -p 8000:8000 rohaanyh/frejun-assignment:latest
 
 ### Local Development
 ```bash
-git clone <repo-url> && cd frejun
+git clone https://github.com/rohanyh101/frejun-takehome-assignment && cd frejun
 make setup && make run
 ```
 
